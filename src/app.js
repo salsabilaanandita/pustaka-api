@@ -13,6 +13,7 @@ import ordersRoutes from "./routes/orders.routes.js";
 import libraryRoutes from "./routes/library.routes.js";
 import usersRoutes from "./routes/users.routes.js";
 import reportsRoutes from "./routes/reports.routes.js";
+import { initDb } from "./db/store.js";
 
 import { notFound, errorHandler } from "./middleware/errorHandler.js";
 
@@ -41,7 +42,23 @@ app.use(
 
 app.use(express.json({ limit: "7mb" }));
 
+app.use(
+  express.urlencoded({
+    extended: true,
+    limit: "7mb",
+  })
+);
+
 app.use(morgan("dev"));
+
+app.use(async (req, res, next) => {
+  try {
+    await initDb();
+    next();
+  } catch (error) {
+    next(error);
+  }
+});
 
 // ======================================================
 // STATIC FILES / UPLOADS
