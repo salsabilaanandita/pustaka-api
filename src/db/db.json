@@ -1,0 +1,478 @@
+{
+  "users": [
+    {
+      "id": "u-admin",
+      "name": "Admin Pustaka",
+      "email": "admin@pustaka.id",
+      "passwordHash": "$2a$10$79uSdyxD6emBMP1Quumage3gmtKdZd.IVkNOVgpuAIxKBGQz1tUMW",
+      "role": "admin",
+      "isActive": true,
+      "createdAt": "2026-09-26"
+    },
+    {
+      "id": "u-staff",
+      "name": "Staff Pustaka",
+      "email": "staff@pustaka.id",
+      "passwordHash": "$2a$10$g4Th75OhRXxMVvRjMKL6AOy.0WQl8Kk.nOFbO/vjZjSpXHwG5rBw2",
+      "role": "staff",
+      "isActive": true,
+      "createdAt": "2026-09-26"
+    }
+  ],
+  "categories": [
+    {
+      "id": "c8718843e",
+      "name": "Romance",
+      "slug": "romance"
+    },
+    {
+      "id": "cdc89eb8e",
+      "name": "Fantasy",
+      "slug": "fantasy"
+    },
+    {
+      "id": "cd5b4133b",
+      "name": "Adventure",
+      "slug": "adventure"
+    },
+    {
+      "id": "c66d1ed7b",
+      "name": "Drama",
+      "slug": "drama"
+    },
+    {
+      "id": "c972325df",
+      "name": "Mystery",
+      "slug": "mystery"
+    },
+    {
+      "id": "c5dd03e2f",
+      "name": "Thriller",
+      "slug": "thriller"
+    },
+    {
+      "id": "c8221f3fd",
+      "name": "Horor",
+      "slug": "horor"
+    },
+    {
+      "id": "c7e51bf70",
+      "name": "Historical Fiction",
+      "slug": "historical-fiction"
+    },
+    {
+      "id": "c1ddb8683",
+      "name": "Science Fiction",
+      "slug": "science-fiction"
+    },
+    {
+      "id": "c2768b921",
+      "name": "Comedy",
+      "slug": "comedy"
+    }
+  ],
+  "books": [
+    {
+      "id": "be3051fcd",
+      "title": "Bulan",
+      "author": "Tere Liye",
+      "category": "Fantasy",
+      "price": 94500,
+      "stock": 40,
+      "pages": 100,
+      "chapters": 4,
+      "synopsis": "",
+      "content": "",
+      "cover": "http://localhost:4000/uploads/cover-3f9695f2-6576-4fde-8f03-d9d402029b9a.jpg",
+      "color": "#1E293B",
+      "addedAt": "2026-09-26"
+    },
+    {
+      "id": "b8ed8e669",
+      "title": "Matahari",
+      "author": "Tere Liye",
+      "category": "fantasy",
+      "price": 94500,
+      "stock": 38,
+      "pages": 100,
+      "chapters": 4,
+      "synopsis": "",
+      "content": "",
+      "cover": "/uploads/cover-2620a819-0f64-4b02-959c-8d25d61087c1.jpg",
+      "color": "#1E293B",
+      "addedAt": "2026-09-26"
+    },
+    {
+      "id": "b570c3f3b",
+      "title": "Bumi",
+      "author": "Tere Liye",
+      "category": "fantasy",
+      "price": 98100,
+      "stock": 45,
+      "pages": 100,
+      "chapters": 4,
+      "synopsis": "",
+      "content": "",
+      "cover": "/uploads/cover-d5f61b8b-b502-4e08-a7ce-1ee9e1f5dbf1.jpg",
+      "color": "#1E293B",
+      "addedAt": "2026-09-26"
+    },
+    {
+      "id": "b5b3d2838",
+      "title": "Bintang",
+      "author": "Tere Liye",
+      "category": "fantasy",
+      "price": 94500,
+      "stock": 42,
+      "pages": 100,
+      "chapters": 4,
+      "synopsis": "",
+      "content": "",
+      "cover": "/uploads/cover-c7af8c41-fd43-4224-9552-93ae2e457b40.jpg",
+      "color": "#1E293B",
+      "addedAt": "2026-09-26"
+    },
+    {
+      "id": "b87f42702",
+      "title": "Ceros dan Batozar",
+      "author": "Tere Liye",
+      "category": "fantasy",
+      "price": 98100,
+      "stock": 32,
+      "pages": 100,
+      "chapters": 4,
+      "synopsis": "",
+      "content": "",
+      "cover": "/uploads/cover-e9d48d93-7654-4f69-9cde-4ac1a08822f7.jpg",
+      "color": "#1E293B",
+      "addedAt": "2026-09-26"
+    },
+    {
+      "id": "b7313b615",
+      "title": "Komet",
+      "author": "Tere Liye",
+      "category": "fantasy",
+      "price": 98100,
+      "stock": 36,
+      "pages": 100,
+      "chapters": 4,
+      "synopsis": "",
+      "content": "",
+      "cover": "/uploads/cover-84157262-b18c-47b3-b407-b81d858858e0.jpg",
+      "color": "#1E293B",
+      "addedAt": "2026-09-26"
+    },
+    {
+      "id": "b5dfc1b51",
+      "title": "Komet Minor",
+      "author": "Tere Liye",
+      "category": "General",
+      "price": 98100,
+      "stock": 30,
+      "pages": 100,
+      "chapters": 4,
+      "synopsis": "",
+      "content": "",
+      "cover": "/uploads/cover-8f6496c4-b763-475a-be5e-83d61fb855c1.jpg",
+      "color": "#1E293B",
+      "addedAt": "2026-09-26"
+    },
+    {
+      "id": "b4fd1a1d5",
+      "title": "Selena",
+      "author": "Tere Liye",
+      "category": "romance",
+      "price": 98100,
+      "stock": 35,
+      "pages": 100,
+      "chapters": 4,
+      "synopsis": "",
+      "content": "",
+      "cover": "/uploads/cover-f680885d-3899-450c-aeca-1b0ab76d1018.jpg",
+      "color": "#1E293B",
+      "addedAt": "2026-09-26"
+    },
+    {
+      "id": "b7c33f376",
+      "title": "Nebula",
+      "author": "Tere Liye",
+      "category": "General",
+      "price": 98100,
+      "stock": 32,
+      "pages": 100,
+      "chapters": 4,
+      "synopsis": "",
+      "content": "",
+      "cover": "/uploads/cover-f0065401-0a2e-4a69-a581-3e0c4b5169ad.jpg",
+      "color": "#1E293B",
+      "addedAt": "2026-09-26"
+    },
+    {
+      "id": "bf3ba50da",
+      "title": "Si Putih",
+      "author": "Tere Liye",
+      "category": "fantasy",
+      "price": 98100,
+      "stock": 28,
+      "pages": 100,
+      "chapters": 4,
+      "synopsis": "",
+      "content": "",
+      "cover": "/uploads/cover-6aaec6a7-0940-4358-b646-35ddea526ed0.jpg",
+      "color": "#1E293B",
+      "addedAt": "2026-09-26"
+    },
+    {
+      "id": "b3850164e",
+      "title": "Lumpu",
+      "author": "Tere Liye",
+      "category": "fantasy",
+      "price": 98100,
+      "stock": 27,
+      "pages": 100,
+      "chapters": 4,
+      "synopsis": "",
+      "content": "",
+      "cover": "/uploads/cover-e8b40ba7-cbc4-402a-b307-bd8c722f3174.jpg",
+      "color": "#1E293B",
+      "addedAt": "2026-09-26"
+    },
+    {
+      "id": "b02dd90d3",
+      "title": "Bibi Gill",
+      "author": "Tere Liye",
+      "category": "fantasy",
+      "price": 98100,
+      "stock": 30,
+      "pages": 100,
+      "chapters": 4,
+      "synopsis": "",
+      "content": "",
+      "cover": "/uploads/cover-d9992ee1-8a14-49c0-8409-aab65bf4c289.jpg",
+      "color": "#1E293B",
+      "addedAt": "2026-09-26"
+    },
+    {
+      "id": "b0f3275af",
+      "title": "Sagaras",
+      "author": "Tere Liye",
+      "category": "fantasy",
+      "price": 98100,
+      "stock": 25,
+      "pages": 100,
+      "chapters": 4,
+      "synopsis": "",
+      "content": "",
+      "cover": "/uploads/cover-bf916034-52b1-43e3-849c-e9fd87438b94.jpg",
+      "color": "#1E293B",
+      "addedAt": "2026-09-26"
+    },
+    {
+      "id": "bfe83bd43",
+      "title": "Matahari Minor",
+      "author": "Tere Liye",
+      "category": "fantasy",
+      "price": 98100,
+      "stock": 24,
+      "pages": 100,
+      "chapters": 4,
+      "synopsis": "",
+      "content": "",
+      "cover": "/uploads/cover-ec2b94ae-43cd-41f1-85f9-5cbe209e503c.jpg",
+      "color": "#1E293B",
+      "addedAt": "2026-09-26"
+    },
+    {
+      "id": "bfa177fb5",
+      "title": "Si Anak Kuat",
+      "author": "Tere Liye",
+      "category": "drama",
+      "price": 89100,
+      "stock": 40,
+      "pages": 100,
+      "chapters": 4,
+      "synopsis": "",
+      "content": "",
+      "cover": "/uploads/cover-72cf91ce-1f91-4b58-b4e0-b03c73009d26.jpg",
+      "color": "#1E293B",
+      "addedAt": "2026-09-26"
+    },
+    {
+      "id": "b90a1d3b4",
+      "title": "Si Anak Spesial",
+      "author": "Tere Liye",
+      "category": "drama",
+      "price": 89100,
+      "stock": 38,
+      "pages": 100,
+      "chapters": 4,
+      "synopsis": "",
+      "content": "",
+      "cover": "/uploads/cover-4e434b76-7726-4c62-aba8-b658cdf7e040.jpg",
+      "color": "#1E293B",
+      "addedAt": "2026-09-26"
+    },
+    {
+      "id": "bf682f7e8",
+      "title": "Si Anak Pintar",
+      "author": "Tere Liye",
+      "category": "drama",
+      "price": 89100,
+      "stock": 36,
+      "pages": 100,
+      "chapters": 4,
+      "synopsis": "",
+      "content": "",
+      "cover": "/uploads/cover-30e73432-c894-46c5-a2ac-421f30358288.jpg",
+      "color": "#1E293B",
+      "addedAt": "2026-09-26"
+    },
+    {
+      "id": "b65a88952",
+      "title": "Si Anak Pemberani",
+      "author": "Tere Liye",
+      "category": "drama",
+      "price": 89100,
+      "stock": 35,
+      "pages": 100,
+      "chapters": 4,
+      "synopsis": "",
+      "content": "",
+      "cover": "/uploads/cover-6f3ee721-3fe4-42a4-9574-721d3ad9246b.jpg",
+      "color": "#1E293B",
+      "addedAt": "2026-09-26"
+    },
+    {
+      "id": "bbcf06516",
+      "title": "Si Anak Badai",
+      "author": "Tere Liye",
+      "category": "drama",
+      "price": 89100,
+      "stock": 42,
+      "pages": 100,
+      "chapters": 4,
+      "synopsis": "",
+      "content": "",
+      "cover": "/uploads/cover-85e57645-ac7f-4336-8d8e-ff9555e879c5.jpg",
+      "color": "#1E293B",
+      "addedAt": "2026-09-26"
+    },
+    {
+      "id": "b3a63a8a0",
+      "title": "Si Anak Cahaya",
+      "author": "Tere Liye",
+      "category": "drama",
+      "price": 89100,
+      "stock": 34,
+      "pages": 100,
+      "chapters": 4,
+      "synopsis": "",
+      "content": "",
+      "cover": "/uploads/cover-521857bf-927b-42b5-89ea-c4c5482cf145.jpg",
+      "color": "#1E293B",
+      "addedAt": "2026-09-26"
+    },
+    {
+      "id": "bad1dc708",
+      "title": "Si Anak Pelangi",
+      "author": "Tere Liye",
+      "category": "drama",
+      "price": 89100,
+      "stock": 32,
+      "pages": 100,
+      "chapters": 4,
+      "synopsis": "",
+      "content": "",
+      "cover": "/uploads/cover-9dcc5981-45a3-45ee-abc6-38704275c95f.jpg",
+      "color": "#1E293B",
+      "addedAt": "2026-09-26"
+    },
+    {
+      "id": "b18851fcd",
+      "title": "Si Anak Savana",
+      "author": "Tere Liye",
+      "category": "drama",
+      "price": 89100,
+      "stock": 30,
+      "pages": 100,
+      "chapters": 4,
+      "synopsis": "",
+      "content": "",
+      "cover": "/uploads/cover-f2233032-c63f-47b2-a0da-c434552ff050.jpg",
+      "color": "#1E293B",
+      "addedAt": "2026-09-26"
+    },
+    {
+      "id": "bf5bdf1dc",
+      "title": "Si Anak Sepeda",
+      "author": "Tere Liye",
+      "category": "drama",
+      "price": 89100,
+      "stock": 28,
+      "pages": 100,
+      "chapters": 4,
+      "synopsis": "",
+      "content": "",
+      "cover": null,
+      "color": "#1E293B",
+      "addedAt": "2026-09-26"
+    }
+  ],
+  "orders": [
+    {
+      "id": "obc9e90a1",
+      "userId": "u-admin",
+      "customerName": "Admin Pustaka",
+      "items": [
+        {
+          "bookId": "b5b3c71c7",
+          "title": "Filosofi Teras",
+          "price": 95000,
+          "qty": 1
+        }
+      ],
+      "total": 95000,
+      "status": "Completed",
+      "date": "2026-09-26T02:30:14.431Z"
+    },
+    {
+      "id": "o7b50b973",
+      "userId": "u-admin",
+      "customerName": "Admin Pustaka",
+      "items": [
+        {
+          "bookId": "b7c33f376",
+          "title": "Nebula",
+          "price": 98100,
+          "qty": 1
+        }
+      ],
+      "total": 98100,
+      "status": "Pending",
+      "date": "2026-09-26T07:28:51.753Z"
+    }
+  ],
+  "cart": [],
+  "wishlist": [
+    {
+      "userId": "u-admin",
+      "bookId": "be3051fcd",
+      "addedAt": "2026-09-26T06:26:01.753Z"
+    }
+  ],
+  "progress": [],
+  "library": [
+    {
+      "userId": "u-admin",
+      "bookId": "b5b3c71c7",
+      "acquiredAt": "2026-09-26T02:30:14.431Z",
+      "orderId": "obc9e90a1"
+    },
+    {
+      "userId": "u-admin",
+      "bookId": "b7c33f376",
+      "acquiredAt": "2026-09-26T07:28:51.753Z",
+      "orderId": "o7b50b973"
+    }
+  ]
+}
